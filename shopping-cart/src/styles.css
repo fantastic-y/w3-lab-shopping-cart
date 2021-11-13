@@ -63,14 +63,14 @@
     position: relative;
     left: 5px;
   }
-  button {
+  .btn-group button {
     background-color: gray;
     border: none;
     width: 30px;
     height: 25px;
-    margin-right: 12px;
+    margin-right: 10px;
   }
-  button div {
+  .btn-group button div {
     background-color: white;
     border-radius: 50%;
     width: 15px;

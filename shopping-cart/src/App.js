@@ -6,6 +6,7 @@ import { ItemData } from "./product";
 import Nav from "./navbar";
 import Cart from "./Cart";
 import Shopping from "./displayProducts";
+import Signin from "./signin";
 
 class App extends Component {
   constructor(props) {
@@ -50,6 +51,10 @@ class App extends Component {
               <Route
                 path="/cart"
                 element={<Cart finalitems={this.state.itemLists.itemList} />}
+              />
+            <Route
+                path="/signin"
+                element={<Signin finalitems={this.state.itemLists.itemList} />}
               />
             </Routes>
           </Router>
